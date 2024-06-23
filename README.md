@@ -1,0 +1,2 @@
+# shinstall
+installs .sh files
