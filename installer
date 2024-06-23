@@ -1,0 +1,4 @@
+git clone https://github.com/starsprinter92/shinstall
+cd shinstall-main
+chmod +x ./shinstall
+./shinstall ./shinstall
