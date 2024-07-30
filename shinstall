@@ -1,2 +1,3 @@
+sudo mv $@ $(echo $@ | sed "s/.sh//g")
 chmod +x $@
 sudo cp $@ /usr/bin
