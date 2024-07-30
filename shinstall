@@ -1,3 +1,3 @@
 chmod +x $@
-sudo mv $@ $(echo $@ | sed "s/.sh//g")
+mv $@ $(echo $@ | sed "s/.sh//g")
 sudo install $(echo $@ | sed "s/.sh//g") /usr/bin
